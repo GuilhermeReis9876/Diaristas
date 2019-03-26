@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Google-Reg';
+    background-color: #eee;
+    padding: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: unset;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+
+.title {
+    font-family: 'Google-Bold';
+    font-size: 1.7rem;
+    color: #333;
+    margin: 10px 0 40px 0;
+    align-self: flex-start;
+}
+
+#cadastrar-diarista {
+    width: 95%;
+}

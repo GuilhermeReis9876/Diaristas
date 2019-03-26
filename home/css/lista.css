@@ -1,0 +1,230 @@
+.main {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+    padding: 30px;
+}
+
+.order-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #8f6ecc;
+    margin-bottom: 25px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+}
+
+.order-bar h1 {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Google-Bold';
+}
+
+.order-bar-options {
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.order-option {
+    padding: 5px 10px;
+    display: flex;
+    margin: 15px;
+    font-family: 'Google-Reg';
+    font-size: .9rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.order-option-active {
+    background-color: #ffffff36 !important;
+    transition: 2s !important;
+    border-radius: 50px !important;
+    padding: 5px 10px;
+    display: flex;
+    margin: 15px;
+    font-family: 'Google-Bold';
+    font-size: .8rem;
+    cursor: pointer;
+
+}
+
+.order-option:hover {
+    background-color: #ffffff36;
+    border-radius: 5px;
+}
+
+.card-diarista {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.bloco-img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.card-foto {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+
+.area-nome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    overflow: hidden;
+}
+
+.bloco1 {
+    padding: 0 0 0 30px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-nome {
+    color: #333;
+    font-family: 'Google-Bold';
+    font-size: 1.5rem;
+    margin: 0 8px 0 0;
+}
+
+.card-email {
+    color: #666;
+    font-family: 'Google-Reg';
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+}
+
+.area-info {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.quadro-info {
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+    height: 77%;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    padding-left: 20px;
+}
+
+.quadro-info i {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.info {
+    color: #222;
+    font-family: 'Google-Bold';
+    margin: 0 40px 0 0;
+}
+
+.btn-perfil {
+    font-family: 'Google-reg';
+    background-color: #8f6ecc;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn-perfil:hover {
+    background-color: #7d58c1;
+    color: #fff;
+}
+
+@media(max-width: 1640px) {
+
+    .nav-lateral h1 {
+        margin: 50px 0 20px 30px;
+        font-size: 1.1rem;
+    }
+    .card-diarista {
+        min-height: 160px;
+        margin-bottom: 15px;
+        padding: 17px;
+    }
+
+    .card-foto {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    .area-nome {
+        width: 300px;
+    }
+
+    .bloco1 {
+        padding: 0 0 0 15px;
+    }
+
+    .card-nome {
+        font-size: 1.3rem;
+        margin: 0 8px 0 0;
+    }
+
+    .card-email {
+        font-size: .9rem;
+        margin: 7px 0 0 0;
+    }
+
+    .quadro-info {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        height: 70%;
+        align-items: center;
+        background-color: #eee;
+        box-shadow: 0 0 2px rgba(0,0,0,0.3);
+        padding-left: 10px;
+    }
+
+    .btn-perfil {
+        font-size: .8rem;
+    }
+
+    .quadro-info i {
+        font-size: .8rem;
+        margin-right: 10px;
+    }
+
+    .info {
+        font-size: .8rem;
+        margin: 0 20px 0 0;
+    }
+
+
+}

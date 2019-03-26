@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #eee;
+    padding: 30px;
+    font-family: 'Google-Reg';
+}
+
+.info-user {
+    width: 100%;
+    height: unset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.6);
+    margin-bottom: 25px;
+}
+
+.title {
+    background-color: #673ab7;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Google-Bold';
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px; 
+}
+
+.info-imagem {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+}
+
+.info-pessoais {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 0 5%;
+}
+
+.info-nome {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.info-telefone {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center
+}
+
+.info-desc {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+#nome {
+    font-family: 'Google-Bold';
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#email {
+    font-family: 'Google-Reg';
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+    color: #666;
+}
+
+#telefone {
+    font-family: 'Google-Bold';
+    font-size: 2rem;
+    color: #333;
+}
+
+.info-desc h1 {
+    font-family: 'Google-Bold';
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#descDiarista {
+    font-family: 'Google-Reg';
+    font-size: 1rem;
+    color: #444;
+}
+
+.avaliacao {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.item {
+    margin-top: 30px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-title {
+    font-family: 'Google-Bold';
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item h2 {
+    font-family: 'Google-Reg';
+    font-size: 1.8rem;
+    color: #555;
+    text-align: center;
+}
+
+#btn-contratar {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 60px;
+    background-color: #673ab7;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Google-Bold';
+}
